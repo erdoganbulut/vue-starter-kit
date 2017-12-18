@@ -1,6 +1,9 @@
 <template lang="pug">
   main.page
     | Hello World
+    p
+      a
+        font-awesome-icon(:icon="['fab', 'github']")
 </template>
 
 <script>
