@@ -8,6 +8,9 @@ import VueResource from 'vue-resource';
 // Vuex + Store
 import store from './store';
 
+// Bootstrap -> bootstrap-reboot
+import 'bootstrap/scss/bootstrap-reboot.scss';
+
 import App from './App';
 import router from './router';
 
