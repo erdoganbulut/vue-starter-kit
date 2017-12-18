@@ -1,8 +1,7 @@
-<template>
-  <div id="app">
-    <header-bar />
-    <router-view/>
-  </div>
+<template lang="pug">
+  .app
+    header-bar
+    router-view
 </template>
 
 <script>

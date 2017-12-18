@@ -1,7 +1,6 @@
-<template>
-  <main class="page">
-    Hello World
-  </main>
+<template lang="pug">
+  main.page
+    | Hello World
 </template>
 
 <script>

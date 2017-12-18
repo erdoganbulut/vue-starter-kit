@@ -1,7 +1,7 @@
-<template>
-  <header>
-    <h1>Vue Starter Kit</h1>
-  </header>
+<template lang="pug">
+  header
+    h1
+      | Vue Starter Kit
 </template>
 
 <script>
