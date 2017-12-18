@@ -1,6 +1,17 @@
+<i18n>
+{
+  "en": {
+    "hello": "hello world!"
+  },
+  "tr": {
+    "hello": "merhaba dünya!"
+  }
+}
+</i18n>
+
 <template lang="pug">
   main.page
-    | Hello World
+    | {{ $t('hello') }}
     p
       a
         font-awesome-icon(:icon="['fab', 'github']")

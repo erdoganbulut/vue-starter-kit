@@ -18,6 +18,9 @@ import brands from '@fortawesome/fontawesome-free-brands';
 // Vuex + Store
 import store from './store';
 
+// Vue-i18n
+import i18n from './i18n';
+
 import App from './App';
 import router from './router';
 
@@ -33,6 +36,7 @@ Vue.config.productionTip = false;
 new Vue({
   el: '#app',
   router,
+  i18n,
   store,
   template: '<App/>',
   components: { App },
