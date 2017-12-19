@@ -1,6 +1,6 @@
 <template lang="pug">
   header
-    h1
+    h2
       | Vue Starter Kit
     select(v-model="modelLocale" v-on:change="setLang(modelLocale)")
       option(value="tr") tr
@@ -43,7 +43,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  h1 {
+  h2 {
     margin: 0;
     padding: 0;
     color: #fff;

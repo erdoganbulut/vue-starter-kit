@@ -11,9 +11,9 @@
 
 <template lang="pug">
   main.page
-    | {{ $t('hello') }}
-    p
-      a
+    h1 {{ $t('hello') }}
+    p.social--icons
+      a(href="https://github.com/erdoganbulut/vue-starter-kit" target="_blank")
         font-awesome-icon(:icon="['fab', 'github']")
 </template>
 
@@ -30,4 +30,21 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 @import '../scss/shareds';
+
+main {
+  text-align: center;
+  h1 {
+    font-weight: 300;
+  }
+  .social--icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    a {
+      display: block;
+      font-size: 24px;
+    }
+  }
+}
 </style>
