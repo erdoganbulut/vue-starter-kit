@@ -44,6 +44,13 @@ main {
     a {
       display: block;
       font-size: 24px;
+      color: inherit;
+      text-decoration: none;
+      opacity: 0.8;
+      transition: 0.25s;
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 }
