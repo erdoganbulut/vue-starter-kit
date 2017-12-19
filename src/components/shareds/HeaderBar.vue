@@ -35,6 +35,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+@import '../../scss/shareds';
 header {
   height: 50px;
   background: rgba(25, 75, 95, 1);
