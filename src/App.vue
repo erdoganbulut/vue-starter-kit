@@ -16,6 +16,6 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-}
+@import './scss/global';
+@import './scss/ui-elements';
 </style>
