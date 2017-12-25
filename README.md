@@ -13,6 +13,20 @@ Features
  - Webpack
  - ESLint / Airbnb
 
+## Getting Started
+### Installation
+``` bash
+git clone https://github.com/erdoganbulut/vue-starter-kit.git
+cd vue-starter-kit
+yarn
+yarn dev
+```
+### Customize Project
+Open package.json file
+Change name, description, author and version properties.
+### Start Write a Code
+Start Write a Code
+
 ## Build Setup
 
 ``` bash
