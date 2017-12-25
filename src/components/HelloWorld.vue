@@ -12,6 +12,7 @@
 <template lang="pug">
   main.page
     h1 {{ $t('hello') }}
+    h4 Using lodash: {{ isLodash }}
     p.social--icons
       a(href="https://github.com/erdoganbulut/vue-starter-kit" target="_blank")
         font-awesome-icon(:icon="['fab', 'github']")
@@ -22,7 +23,11 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
+      isLodash: false,
     };
+  },
+  mounted() {
+    this.isLodash = window._.isEmpty();
   },
 };
 </script>

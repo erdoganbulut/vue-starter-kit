@@ -30,6 +30,8 @@ fontawesome.library.add(solid, regular, brands);
 
 Vue.use(VueResource);
 
+window._ = require('lodash');
+
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
