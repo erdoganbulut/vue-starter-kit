@@ -2,6 +2,17 @@
 
 > A Vue.js project
 
+Features
+ - Vuex
+ - Vue-router
+ - Localization (i18n)
+ - Vue-resource (http request)
+ - SCSS CSS Pre-Processors
+ - Pug HTML lang
+ - Lodash
+ - Webpack
+ - ESLint / Airbnb
+
 ## Build Setup
 
 ``` bash
